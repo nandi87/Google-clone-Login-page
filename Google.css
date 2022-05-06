@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    border: 1px solid rgb(214, 213, 213);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+   text-align: center;
+   padding: 50px 40px 10px 40px ;
+}
+
+img{
+    width: 70px;
+    height: 30px;
+}
+.container h1{
+    padding: 10px;
+    font-weight: 100;
+}
+.container h4{
+    font-weight: 100;
+}
+.input-box{
+    padding: 30px 0 10px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    border:1px solid rgb(214, 213, 213);
+    font-size: 16px;
+    border-radius: 5px; 
+    padding: 10px;
+    opacity: 0.6;
+    outline: none;
+}
+.cont{
+    padding-bottom: 50px;
+
+}
+a{
+    color: #1a73e8;
+    text-decoration: none;
+}
+.cont a{
+    width: 100%;
+    padding-right:70%;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pra p{
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: justify;
+    opacity: 0.8;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    word-spacing: 0.5px;
+}
+.butt a{
+    width: 100%;
+    padding-right:50%; 
+}
+
+span{
+    float: right;
+}
+button{
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+}
+@media screen and (max-width:786px) {
+    .container {
+        width: 300px;
+        height: 500px;
+        position: relative;
+        border: 1px solid rgb(214, 213, 213);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        text-align: center;
+        padding: 30px 30px 10px 30px;
+    }
+    .cont{
+        padding-bottom: 30px;
+    }
+    .cont a{
+        width: 100%;
+        padding-right:50%;
+        padding-bottom: 30px;
+    }
+    .butt a{
+        margin-bottom: 100px;
+        width: 100%;
+        padding-left: 30%;
+    }
+    .pra p{
+        width: 100%;
+        padding-bottom: 30px;
+        text-align: justify;
+        opacity: 0.8;
+        font-size: 12px;
+    }
+    span{
+       padding: 20px;
+       float: left;
+       padding-left: 35%;
+    }
+
+    button{
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+        background-color: #1a73e8;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: white;
+    }
+  
+    
+}
